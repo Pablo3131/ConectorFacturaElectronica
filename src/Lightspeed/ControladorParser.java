@@ -51,7 +51,7 @@ public class ControladorParser implements IParser {
                                   
         newInvoice = lightSpeedConector.getInvoiceInformation(invoiceId); //Use API
         
-        cDB.InsertInvoice(newInvoice);
+        //cDB.InsertInvoice(newInvoice);
         if (newInvoice == null) {
             System.out.println("getInvoiceInformation returned NULL value");
             return;
