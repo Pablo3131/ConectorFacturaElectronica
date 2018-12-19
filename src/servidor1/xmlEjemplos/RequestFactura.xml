@@ -1,0 +1,66 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Header/>
+    <s:Body>
+        <EnviarFactura xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <Clave>P@$$wsedocCR</Clave>
+            <Entorno>2</Entorno>
+            <Factura>
+                <MatrizEstab>1</MatrizEstab>
+                <PuntoVenta>1</PuntoVenta>
+                <Secuencial>152</Secuencial>
+                <FechaEmision>2018-08-22T00:27:37.840-06:00</FechaEmision>
+                <Emisor>
+                    <RazonSocial>GuruSoft S.A.</RazonSocial>
+                    <TipoIdentificacion>02</TipoIdentificacion>
+                    <NumIdentificacion>3101746795</NumIdentificacion>
+                    <NombreComercial>GuruSoft S.A.</NombreComercial>
+                    <Provincia>1</Provincia>
+                    <Canton>13</Canton>
+                    <Distrito>1</Distrito>
+                    <Barrio>1</Barrio>
+                    <Direccion>123</Direccion>
+                    <CorreoElectronico>vichms06@hotmail.com</CorreoElectronico>
+                </Emisor>
+                <Receptor>
+                    <RazonSocial>123</RazonSocial>
+                    <Provincia>1</Provincia>
+                    <Canton>1</Canton>
+                    <Distrito>1</Distrito>
+                    <Barrio>1</Barrio>
+                    <Direccion>Prueba de dirección</Direccion>
+                </Receptor>
+                <CodCondicionVenta>01</CodCondicionVenta>
+                <CodMedioPago1>01</CodMedioPago1>
+                <TipoCambio>0</TipoCambio>
+                <TotalServGravados>0</TotalServGravados>
+                <TotalServExentos>0</TotalServExentos>
+                <TotalMercanciasGravadas>0</TotalMercanciasGravadas>
+                <TotalMercanciasExentas>0</TotalMercanciasExentas>
+                <TotalGravado>10</TotalGravado>
+                <TotalExento>0</TotalExento>
+                <TotalVenta>10</TotalVenta>
+                <TotalDescuentos>0</TotalDescuentos>
+                <TotalVentaNeta>10</TotalVentaNeta>
+                <TotalImpuesto>0</TotalImpuesto>
+                <TotalComprobante>10</TotalComprobante>
+                <SinInternet>false</SinInternet>
+                <SecuencialERP>2</SecuencialERP>
+                <DetalleServicio>
+                    <ClsDetalleServicio>
+                        <Cantidad>1</Cantidad>
+                        <UnidadMedida>1</UnidadMedida>
+                        <DetalleDescripcion>Prueba</DetalleDescripcion>
+                        <PrecioUnitario>10</PrecioUnitario>
+                        <MontoTotal>10</MontoTotal>
+                        <SubTotal>10</SubTotal>
+                        <MontoTotalLinea>10</MontoTotalLinea>
+                    </ClsDetalleServicio>
+                </DetalleServicio>
+                <Otros>
+                    <OtrosTexto/>
+                </Otros>
+            </Factura>
+            <mensaje>1</mensaje>
+        </EnviarFactura>
+    </s:Body>
+</s:Envelope>

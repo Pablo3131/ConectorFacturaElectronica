@@ -1,0 +1,19 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <EnviarFacturaResponse>
+            <EnviarFacturaResult>
+                <CodigoError>HAC_3</CodigoError>
+                <FechaAutorizacion>0001-01-01T00:00:00</FechaAutorizacion>
+                <NumeroConsecutivo>00100001010000000003</NumeroConsecutivo>
+                <ClaveComprobante>50622081800310174679500100001010000000003102738943</ClaveComprobante>
+                <Estado>3</Estado>
+                <MensajeRespuesta>RECHAZADO HACIENDA =&gt; Este comprobante fue aceptado en el ambiente de pruebas, por lo cual no tiene validez para fines tributarios
+
+El comprobante electrónico tiene los siguientes errores: 
+
+[
+codigo, mensaje, fila, columna
+-99, "La numeración consecutiva del comprobante que se esta utilizando para este archivo XML ya existe en nuestras bases de datos.", 0, 0
+
+]</MensajeRespuesta></EnviarFacturaResult><mensaje/></EnviarFacturaResponse></s:Body></s:Envelope>

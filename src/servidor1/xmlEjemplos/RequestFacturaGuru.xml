@@ -1,0 +1,49 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Header>
+      <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">urn:IWSEDOC_FACTURAS/EnviarFactura</Action>
+    </s:Header>
+    <s:Body>
+      <EnviarFactura xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <Clave>1</Clave>
+        <Entorno>1</Entorno>
+        <Factura>
+          <MatrizEstab>0</MatrizEstab>
+          <PuntoVenta>0</PuntoVenta>
+          <Secuencial>0</Secuencial>
+          <FechaEmision>2018-08-19T07:47:00</FechaEmision>
+          <Emisor>
+            <Provincia>0</Provincia>
+            <Canton>0</Canton>
+            <Distrito>0</Distrito>
+            <Barrio>0</Barrio>
+          </Emisor>
+          <Receptor>
+            <Provincia>0</Provincia>
+            <Canton>0</Canton>
+            <Distrito>0</Distrito>
+            <Barrio>0</Barrio>
+          </Receptor>
+          <TipoCambio>0</TipoCambio>
+          <TotalServGravados>0</TotalServGravados>
+          <TotalServExentos>0</TotalServExentos>
+          <TotalMercanciasGravadas>0</TotalMercanciasGravadas>
+          <TotalMercanciasExentas>0</TotalMercanciasExentas>
+          <TotalGravado>0</TotalGravado>
+          <TotalExento>0</TotalExento>
+          <TotalVenta>0</TotalVenta>
+          <TotalDescuentos>0</TotalDescuentos>
+          <TotalVentaNeta>0</TotalVentaNeta>
+          <TotalImpuesto>0</TotalImpuesto>
+          <TotalComprobante>0</TotalComprobante>
+          <SinInternet>false</SinInternet>
+          <Adjunto />
+          <DetalleServicio />
+          <InformacionReferencia />
+          <Otros>
+            <OtrosTexto />
+          </Otros>
+        </Factura>
+        <mensaje>1</mensaje>
+      </EnviarFactura>
+    </s:Body>
+</s:Envelope>

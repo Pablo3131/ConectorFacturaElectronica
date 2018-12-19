@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_FACTURAS.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_TIQUETE.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_FACTURAS.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_NOTAS_CREDITO.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc?wsdl" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc?wsdl=wsdl0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc?xsd=xsd0" uri="wsdl/gurusoft-lab.com/eDocCR/1.2/WSEDOC/WSEDOC_TIQUETE.svc.xsd_xsd0.xsd"/>
+</catalog>

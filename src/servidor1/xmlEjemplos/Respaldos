@@ -1,0 +1,26 @@
+            /*
+            env.removeAttribute("xmlns:SOAP-ENV");
+            
+            if (env.getHeader() != null) {
+                env.getHeader().detachNode();
+            }
+            */
+            
+            /*
+            <s:Header>
+            <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">urn:IWSEDOC_FACTURAS/EnviarFactura</Action>
+            </s:Header>
+            */           
+            /*
+            SOAPFactory soapFactory = SOAPFactory.newInstance();
+            //SOAPElement soapElementoCabecera = soapFactory.createElement("Action", "", "http://schemas.microsoft.com/ws/2005/05/addressing/none");
+            SOAPElement soapElementoCabecera = soapFactory.createElement("Action");
+            //soapElementoCabecera.addAttribute(new QName("xmlns"), "http://schemas.microsoft.com/ws/2005/05/addressing/none");
+            soapElementoCabecera.addAttribute(new QName("s:mustUnderstand"), "1");
+            soapElementoCabecera.addTextNode("urn:IWSEDOC_FACTURAS/EnviarFactura");
+            
+            
+            SOAPHeader soapHeader = env.addHeader(); // Crea un elemento cabecera SOAP
+            
+            soapHeader.addChildElement(soapElementoCabecera);      
+            */
